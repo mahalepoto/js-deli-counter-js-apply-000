@@ -2,6 +2,7 @@
 function takeANumber(currentLineOfPeople, newComerName) {
   currentLineOfPeople.push(newComerName);
   var qPosition = currentLineOfPeople.indexOf(newComerName) + 1;
+<<<<<<< HEAD
   return "Welcome, "+newComerName + ". You are number " + qPosition + " in line." ; 
 } 
 
@@ -29,3 +30,14 @@ function currentLine(currentLineOfPeople) {
   }
   
 } 
+=======
+  return "Welcome, "+newComerName + ". You are number " + qPosition + " in line."  
+} 
+function nowServing(currentLineOfPeople) {
+ var emptyLine;
+ if (currentLineOfPeople === 0) {
+   emptyLine = "No one in the line"
+ }
+ return  
+}
+>>>>>>> 244448570799e6e93fa5acc5763df693b865e16d
